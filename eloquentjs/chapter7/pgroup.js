@@ -23,9 +23,6 @@ PGroup.empty = new PGroup([]);
 let a = PGroup.empty.add("a");
 let ab = a.add("b");
 let b = ab.delete("a");
-console.log(a);
-console.log(ab);
-console.log(b);
 console.log(b.has("b"));
 // → true
 console.log(a.has("b"));
