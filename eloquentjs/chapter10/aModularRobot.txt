@@ -1,0 +1,4 @@
+build myself: roads interface a object, roadGraph interfaces a instance of a Graph, VillageState interfaces a a function, runRobot interfaces a function, randomRobot interfaces a funcion, mailRoute interfaces a object, goalOrientedRobot interfaces a function.
+depend: roadGraph depends on buildGraph, VillageState depends on roadGraph, routeRobot depends on mailRoute.
+npm: Build Graph, randomPick, findRoute. 
+Use npm package.

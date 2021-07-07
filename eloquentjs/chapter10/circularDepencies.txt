@@ -1,0 +1,5 @@
+The first module to run is set to require.cache it loads the code, so when the second module starts
+being loaded, it receives the reference to the export object of the first module. when the second module
+loads, it returns to the first and loads the values into de export, as the object still the same, the
+second module reference to the initially empty object now has the propertys add to it. If one of the modules,
+overwrite the export and loads first, the second module will have a reference to an empty object.
