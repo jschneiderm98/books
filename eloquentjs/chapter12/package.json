@@ -1,0 +1,12 @@
+{
+  "name": "chapter12",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node -r esm expressionParser.js"
+  },
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
